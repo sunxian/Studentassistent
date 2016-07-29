@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">学生助理</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Hello timetable</string>
+    <string name="edit">记事</string>
+    <string name="title_activity_addnotes">AddnotesActivity</string>
+    <string name="about1">便签：可添加删除文字图片，卡片展示便签</string>
+    <string name="about2">课程表：可添加并查看课程表</string>
+</resources>

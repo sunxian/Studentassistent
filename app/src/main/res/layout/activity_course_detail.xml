@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.sun.studentassistent.CourseDetailActivity">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:id="@+id/tableLayout">
+        <TableRow>
+            <Button
+                android:background="#aec2f6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="开始节次"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/startnum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:background="#aec2f6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="结束节次"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/endnum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:background="#aec2f6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="星期"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/week1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:background="#aec2f6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="开始时间"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/starttime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:background="#aec2f6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="结束时间"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/endtime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:background="#aec2f6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="课程"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/coursename1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:background="#aec2f6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="老师"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/teacher1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:background="#aec2f6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="教室"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/classroom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:background="#aec2f6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="上课周"/>
+            <TextView
+                android:gravity="center"
+                android:id="@+id/weeknum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:background="#f9c4d5"
+        android:onClick="delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除课程"
+        android:id="@+id/deletecourse"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
